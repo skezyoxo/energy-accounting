@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Suggester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <button class="energy-button" onclick="selectEnergy('low')">Low</button>
+        <button class="energy-button" onclick="selectEnergy('normal')">Normal</button>
+        <button class="energy-button" onclick="selectEnergy('high')">High</button>
+    </div>
+    <div>
+        <button class="time-button" onclick="selectTime('10')">10 minutes</button>
+        <button class="time-button" onclick="selectTime('30')">30 minutes</button>
+        <button class="time-button" onclick="selectTime('60')">1 hour</button>
+        <button class="time-button" onclick="selectTime('120')">2 hours</button>
+        <button class="time-button" onclick="selectTime('240')">4 hours</button>
+        <button class="time-button" onclick="selectTime('full')">Full day</button>
+    </div>
+    <div id="suggestions"></div>
+    <script src="script.js"></script>
+</body>
+</html>
