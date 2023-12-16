@@ -1,0 +1,44 @@
+body {
+    font-family: 'Garamond', serif;
+    margin: 20px;
+    background-color: white;
+    color: #333;
+}
+
+.energy-button, .time-button, button {
+    font-family: 'Garamond', serif;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.selected {
+    background-color: #337ea9;
+    color: white;
+}
+
+#suggestions {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 50px;
+}
+
+#suggestions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#suggestions li {
+    margin: 5px 0;
+    padding: 3px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+}
