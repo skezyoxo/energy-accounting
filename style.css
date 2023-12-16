@@ -42,3 +42,9 @@ body {
     background-color: #e7e7e7;
     border-radius: 5px;
 }
+
+#suggestions u {
+    text-decoration: underline;
+    text-decoration-thickness: 1px; 
+    text-underline-offset: 5px; 
+}
